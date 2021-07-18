@@ -1,8 +1,7 @@
 
 # Operadores
-
-# Comparison
 '''
+# Comparison
 ==  Equal
 !=  Not equal
 >   Greater than
@@ -71,5 +70,31 @@ if renda_acima_5mil or nome_limpo:
     print('Financiamento Aprovado')
 else:
     print('Financiamento Negado')
+
+
+# Ternary Operators - Conditional Expressions
+
+idade = int(input('Informe a sua idade: '))
+resultado = 'Voto Permitido' if idade >= 16 else 'Voto não Permitido'
+print(resultado)
+
+
+
+# Multiple Comparison Operators
+
+# 1.
+valor = 30
+if valor >= 20 and valor < 40:
+    print('Produto Aceito')
+else:
+    print('Produto Recusado')
+
 '''
+
+# 2.
+valor = 20
+if 20 <= valor < 40:
+        print('Produto Aceito')
+else:
+    print('Produto Recusado')
 
