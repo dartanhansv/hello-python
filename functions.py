@@ -36,4 +36,29 @@ print(gerente)
 gerente_ano = gerente * 12
 print(gerente_ano)
 
+
+# função com N argumentos - xargs
+# O '*' indica que o numero total de argumentos não é definido
+def soma(*numeros):
+    resultado = 0 #valor inicial
+    for k in numeros:.0
+        resultado += k
+    return resultado
+
+x = soma(1, 2, 3)
+print(x)
+
 '''
+# Identificar/nomear paramentros dos n argumentos xargs
+
+def agencia(**carro):
+    return carro
+
+print(agencia(modelo='gol', cor='branco', motor=1.0))
+print(agencia(modelo='celta', cor='preto'))
+print(agencia(modelo='corsa', motor=1.0))
+print(agencia(modelo='golf', cor='prata', motor=2.0))
+
+
+
+
