@@ -3,7 +3,7 @@ Lists in Python are containers that can store anything you want
 Python list is called an array in other languages
 '''
 
-# Creat: 
+# Create: 
 
 # An empty list
 fears = []
