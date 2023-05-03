@@ -1,18 +1,13 @@
 import random
 
-
-
 r1 = random.random()    # Give us a random number from 0 to 1
 print(r1, '\n')
 
 r2 = random.choice([1,2,3,4,5])     # Give us a random number from a list
 print(r2, '\n')
 
-
 r3 = random.randint(1, 5000)     # Give us a random number in a range
 print(r3, '\n')
-
-
 
 # Pick 10 random mumbers in a range
 for r in range(10):                         
