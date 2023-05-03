@@ -1,5 +1,3 @@
-
-
 def average(numbers):
     avg = sum(numbers)/len(numbers)
     return avg
