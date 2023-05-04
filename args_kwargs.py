@@ -28,6 +28,8 @@ The only difference from args is that it uses keywords and returns the values in
 
 
 def function_B(**kwargs):
+    print(kwargs.keys())
+    print(kwargs.values())
     print(kwargs)
 
 function_B(First='Dartanhan', Middle='S.', Last='Venturini')
@@ -41,3 +43,9 @@ def function_C(**kwargs):
         print("The value of {} is {}" .format(key, value))
 
 function_C(First_name='Dartanhan', Middle_name='S.', Last_name='Venturini')
+
+
+
+
+
+# Bear in mind: *args creates tuple wheareas **kwargs creates dictionary
