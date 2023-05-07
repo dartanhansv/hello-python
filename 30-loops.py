@@ -112,7 +112,27 @@ else:
 
 
 
-
-
 print('\n')
 #source: https://www.w3schools.com/python
+
+
+
+
+
+
+
+
+
+# Trying myself
+# For fun - Print a rectangle/square pattern
+
+line = 6
+row = 4
+symbol = '@'
+
+for l in range(line):
+    for r in range(row):
+        print(symbol, end="") 
+    print('')  
+
+print('\n')
