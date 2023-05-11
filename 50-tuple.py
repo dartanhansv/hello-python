@@ -34,6 +34,24 @@ for item in cities:
 # Nested tuples
 print('\n')
 all = ((3, 15, 53, 55, 62, 74), ("Blue Valley", "Evergreen City", "Gotham City", "Smallville"), (3, "Gotham", 15, "Smmallville", 10.5))
-print(all), print('\n')
-print(all[2][1])
+print(all, '\n')
+print(all[2][1], '\n')
 
+
+# Tuple Unpacking - Extract value back into variables   - https://www.w3schools.com/python/python_tuples_unpack.asp
+# Packing
+fruits = ("apple", "banana", "cherry")
+# unpacking
+(green, yeloow, red) = fruits
+print(green)
+print(yeloow)
+print(red)
+print('\n')
+
+# The number of variables must match the number of values in the tuple, if not, you most use an asterisk to collect the remaining values as a list
+more_fruits = ("apple", "banana", "cherry", "strawberry", "raspberry")
+(green, yeloow, *red) = more_fruits
+print(green)
+print(yeloow)
+print(red)
+print('\n')
