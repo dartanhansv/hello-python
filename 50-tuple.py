@@ -1,7 +1,7 @@
 """
 Tuple
-    Immutable sequences of arbitrary objects
-    Tuples are delimeted by parentheses
+    Immutable sequences of arbitrary objects delimeted by parentheses
+    Once created, the objects within them cannot be replaced or removed, and new elements cannot be added.
 """
 
 ## Tuple 
