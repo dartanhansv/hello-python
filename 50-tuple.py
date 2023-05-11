@@ -29,3 +29,11 @@ print('The tuple "Both" has', len(both), 'alements')
 # Loop tuple
 for item in cities:
     print(item)
+
+
+# Nested tuples
+print('\n')
+all = ((3, 15, 53, 55, 62, 74), ("Blue Valley", "Evergreen City", "Gotham City", "Smallville"), (3, "Gotham", 15, "Smmallville", 10.5))
+print(all), print('\n')
+print(all[2][1])
+
