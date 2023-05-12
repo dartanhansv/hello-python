@@ -1,0 +1,11 @@
+
+
+fibo = [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+
+for number in enumerate(fibo):
+    print(number)
+print('\n')
+
+
+for index, number in enumerate(fibo):
+    print(f"index = {index}, number = {number}")
